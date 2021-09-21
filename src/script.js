@@ -8,6 +8,7 @@ import * as dat from "dat.gui";
  */
 // Debug
 const gui = new dat.GUI();
+gui.closed = true;
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
